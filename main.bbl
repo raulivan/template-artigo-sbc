@@ -1,0 +1,38 @@
+\begin{thebibliography}{}
+
+\bibitem[{Nome da Empresa Fabricante} 2022]{manual_exemplo}
+{Nome da Empresa Fabricante} (2022).
+\newblock {\em Nome do Manual Técnico ou Documentação Oficial}.
+\newblock Empresa de Tecnologia S.A., Cidade Sede.
+\newblock Versão 2.1.
+
+\bibitem[ou~Instituição 2023]{web_exemplo}
+ou~Instituição, A. (2023).
+\newblock Título da página web.
+\newblock \url{https://www.exemplo.com.br}.
+\newblock Acesso em: 03 jul. 2026.
+
+\bibitem[Sobrenome 2020]{dissertacao_exemplo}
+Sobrenome, N. d.~A. (2020).
+\newblock Título de uma dissertação de mestrado.
+\newblock Master's thesis, Instituto de Informática, Universidade Estadual
+  ABC, Cidade, Brasil.
+
+\bibitem[Sobrenome 2021]{tese_exemplo}
+Sobrenome, N. d.~A. (2021).
+\newblock {\em Título de uma Tese de Doutorado}.
+\newblock PhD thesis, Programa de Pós-Graduação em Computação,
+  Universidade Federal XYZ, Cidade, Brasil.
+
+\bibitem[Sobrenome 2023]{tcc_exemplo}
+Sobrenome, N. d.~A. (2023).
+\newblock Título de um trabalho de conclusão de curso (tcc).
+\newblock Trabalho de conclusão de curso (graduação), Curso de Ciência da
+  Computação, Faculdade Exemplo, Cidade, Brasil.
+
+\bibitem[Sobrenome1 and Sobrenome2 2022]{artigo_exemplo}
+Sobrenome1, N. and Sobrenome2, N. (2022).
+\newblock Título de um artigo científico publicado em revista.
+\newblock {\em Revista Brasileira de Computação}, 10(2):100--115.
+
+\end{thebibliography}

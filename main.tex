@@ -1,0 +1,56 @@
+% Template criado por Raulivan Rodrigo
+% Data de Criação: 03/07/2026
+% Versão:1.0
+
+\documentclass[12pt]{article}
+\usepackage{sbc-template}
+\usepackage{graphicx,url}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{cite}
+\usepackage{float}
+\newfloat{quadro}{htbp}{loq}
+\floatname{quadro}{Quadro}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\floatname{algorithm}{Algoritmo}
+\renewcommand{\algorithmicrequire}{\textbf{Entrada:}}
+\renewcommand{\algorithmicensure}{\textbf{Saída:}}
+
+\sloppy
+
+\title{Modelo de Artigo para o PID: Orientandos do professor Raulivan}
+
+\author{Nome do Aluno 1\inst{1}, Nome do Aluno 2\inst{1}, Nome do Aluno 3\inst{1}, Raulivan Rodrigo da Silva\inst{1}}
+
+\address{
+  Centro Federal de Educação Tecnologica de Minas Gerais (CEFET-MG)\\
+  Campus V -- Divinópolis -- MG -- Brasil
+ % \nextinstitute
+ % Centro Federal de Educação Tecnologica de Minas Gerais (CEFET-MG)\\
+ % Campus V  --Divinópolis -- MG -- Brasil
+  \email{aluno1@cefetmg.br, aluno2@cefetmg.br, aluno3@cefetmg.br, raulivan@cefetmg.br}
+}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+  This section must contain a brief summary in English of the problem, the proposed solution, the methodology and the main results. In scientific articles, it generally consists of a single paragraph and should be concise.
+\end{abstract}
+
+\begin{resumo}
+  O resumo é uma versão em português do Abstract. Aqui você deve apresentar, de forma sucinta, o contexto da pesquisa, o problema abordado, a metodologia adotada e os principais resultados obtidos. Geralmente, o resumo possui entre 150 e 250 palavras e não deve conter citações bibliográficas.
+\end{resumo}
+
+\input{secoes/01-introducao}
+\input{secoes/02-fundamentacao}
+\input{secoes/03-trabalhos-relacionados}
+\input{secoes/04-metodologia}
+\input{secoes/05-analise-resultados}
+\input{secoes/06-consideracoes-finais}
+
+\bibliographystyle{sbc}
+\bibliography{referencias}
+
+\end{document}

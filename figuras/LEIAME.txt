@@ -1,0 +1,1 @@
+Coloque as imagens do seu artigo nesta pasta (.png, .jpg, .pdf, etc.)

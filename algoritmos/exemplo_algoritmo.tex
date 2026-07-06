@@ -1,0 +1,14 @@
+\begin{algorithm}[H]%htbp
+  \caption{Exemplo de Algoritmo de Busca}
+  \label{alg:exemplo_busca}
+  \begin{algorithmic}[1]
+    \Require Grafo $G$, Nó inicial $s$, Nó objetivo $t$
+    \Ensure Caminho percorrido de $s$ até $t$
+    \State $Atual \gets s$
+    \While{$Atual \neq t$}
+      %\State $Vizinhos \gets \text{vizinhos de } Atual$
+      \State $Atual \gets \arg\min_{v \in Vizinhos} h(v)$ \Comment{Escolhe o nó mais promissor}
+    \EndWhile
+    \State \Return Caminho percorrido
+  \end{algorithmic}
+\end{algorithm}
